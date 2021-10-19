@@ -1,0 +1,50 @@
+@font-face{
+    font-family: calcy-font;
+    src:url("./digital-7.ttf")
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: darkcyan;
+}
+
+.wraper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0px 0px 40px 0px;
+    text-align: center;
+    background-color: cornflowerblue;
+    margin: 0px;
+}
+.forms{
+    background-color: #254155;
+    height: 50vh;
+    padding: 25px;
+    border-radius: 8px;
+}
+.forms input{
+    height: 40px;
+    width: 60px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0004;
+    cursor: pointer;
+}
+#put{
+    background-color: #81a378;
+    width: 250px;
+    font-weight: 600;
+    color: #000;
+    font-family: calcy-font;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+#bb{
+    width: 123.5px;
+}
